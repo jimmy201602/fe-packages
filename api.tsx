@@ -63,6 +63,7 @@ const api = {
   nethws: getAMSEEApi('/nethws'),
   nws: getAMSEEApi('/nws'),
   mibs: getAMSEEApi('/mibs'),
+  regions: getAMSEEApi('/regions'),
 
   cluster: getApi('ccpapi', '/cluster'),
 
