@@ -67,7 +67,7 @@ const api = {
   locations: getAMSEEApi('/locations'),
   racks: getAMSEEApi('/racks'),
   rooms: getAMSEEApi('/rooms'),
-  assetinfos: getAMSEEApi('/assetinfos'),
+  assetinfors: getAMSEEApi('/assetinfors'),
 
   cluster: getApi('ccpapi', '/cluster'),
 
