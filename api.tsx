@@ -66,6 +66,7 @@ const api = {
   regions: getAMSEEApi('/regions'),
   locations: getAMSEEApi('/locations'),
   racks: getAMSEEApi('/racks'),
+  rooms: getAMSEEApi('/rooms'),
 
   cluster: getApi('ccpapi', '/cluster'),
 
